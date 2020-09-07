@@ -11,7 +11,6 @@ const MobileNav = () => {
   return (
 
     <div className="mobile-container">
-
         <Particles />
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
             <motion.div className="mobile-nav-spacing">

@@ -20,6 +20,13 @@ html body {
   width: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+    .mobile-landing-nav {
+      display: flex;
+    }
+  }
+}
+
 .mobile-container {
   display: flex;
   flex-direction: column;
@@ -172,6 +179,9 @@ button.navbar-toggler {
     justify-content: center;
     margin-top: 50%;
   }
+  .logo-container-2 {
+    display: none;
+  }
   .cclogo {
     color: white;
     font-family: "georgia";
@@ -180,7 +190,7 @@ button.navbar-toggler {
     text-shadow: 10px 10px 10px rgba(0,15,44,0.6);
   }
   .tagline-container {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
   }
@@ -194,15 +204,14 @@ button.navbar-toggler {
   }
 
   .cta-section {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
   }
 
   .cta {
-    font-size: 8px;
-    letter-spacing: 2px;
-    padding-left: 4px;
+    font-size: 10px;
+    padding-left: 2px;
     font-weight: 300;
     text-shadow: 2px 2px 3px rgba(0,15,44,1);
     padding-bottom: 0.4%;
