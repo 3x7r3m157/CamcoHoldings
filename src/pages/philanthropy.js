@@ -3,8 +3,8 @@ import Navbar from '../components/camconavbar.js'
 import './styles.scss';
 import { motion } from 'framer-motion';
 import NavParticles from '../components/navparticles.js'
-import BackgroundImage from '../../static/untitled-1.jpg';
-import BackgroundImage2 from '../../static/untitled-2.jpg';
+import BackgroundImage from '../../static/Untitled-1.jpg';
+import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import Footer from '../components/footer.js';
 
 

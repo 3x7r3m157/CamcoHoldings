@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from '../components/camconavbar.js';
 import NavParticles from '../components/navparticles.js';
 import Footer from '../components/footer.js';
-import BackgroundImage from '../../static/untitled-1.jpg';
-import BackgroundImage2 from '../../static/untitled-2.jpg';
+import BackgroundImage from '../../static/Untitled-1.jpg';
+import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import './styles.scss';
 import { motion } from 'framer-motion';
 
