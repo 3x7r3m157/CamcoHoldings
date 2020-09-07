@@ -6,6 +6,7 @@ import BackgroundImageX from '../../static/Untitled-1.jpg';
 import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'gatsby';
 
 
 const Home = ({ isVisible }) => {
@@ -92,7 +93,7 @@ const Home = ({ isVisible }) => {
             </motion.div>
           </motion.div>
         </motion.div>
-        <motion.div className="logo-container-2" initial={{opacity: 0, y:-800}} animate={{opacity: 1}} transition={{duration: 3, delay: 15.5}}>
+        <motion.div className="logo-container" initial={{opacity: 0, y:-800}} animate={{opacity: 1}} transition={{duration: 3, delay: 15.5}}>
           <motion.h1 className="cclogo">C</motion.h1>
           <motion.h1 className="cclogo">a</motion.h1>
           <motion.h1 className="cclogo">m</motion.h1>
@@ -138,7 +139,6 @@ const Home = ({ isVisible }) => {
           </motion.div>
         </motion.div>
         <motion.img className="background-image-x" key={BackgroundImageX} src={BackgroundImageX} animate={{ x:4000 }} transition={{ type: "tween", duration: 170 }}/>
-
 
     </div>
 

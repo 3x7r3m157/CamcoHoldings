@@ -1,7 +1,7 @@
 import React from 'react';
 import CamcoNavbar from '../components/camconavbar.js';
 import Footer from '../components/footer.js';
-import Particles from '../components/particles.js';
+import NavParticles from '../components/navparticles.js';
 import './styles.scss';
 import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/untitled-1.jpg';
@@ -12,7 +12,7 @@ const RiseAbove = () => {
   return (
     <div className="container">
       <CamcoNavbar />
-      <Particles />
+      <NavParticles />
       <div className="white-bg">
         <h1 className="heading-cta">Rise Above Creative Solutions</h1>
         <p>A full service marketing agency that specializes in helping clients
@@ -56,6 +56,7 @@ const RiseAbove = () => {
         <p>We specialize in clean cut user friendly web and mobile design and development including vivid and purposeful
         SEO, SEM, PPC, and more.</p>
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} animate={{ x:2000 }} transition={{ ease: 0, duration: 100 }}/>
+        <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} animate={{ x:4000 }} transition={{ ease: 0, duration: 100 }}/>
       </div>
       <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} animate={{ x:4000 }} transition={{ ease: 0, duration: 100 }}/>
     </div>
