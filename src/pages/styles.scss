@@ -9,7 +9,7 @@ html body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .hamburger {
     display: none;
   }
@@ -178,51 +178,51 @@ button.navbar-toggler {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .logo-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50%;
-  }
-  .logo-container-2 {
-    display: none;
-  }
-  .cclogo {
-    color: white;
-    font-family: "georgia";
-    font-size: 100px;
-    font-weight: 800;
-    text-shadow: 10px 10px 10px rgba(0,15,44,0.6);
-  }
-  .tagline-container {
-    display: none;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .tagline {
-    padding-left: 6px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-size: 15px;
-    text-align: center;
-    text-shadow: 3px 3px 5px rgba(0,15,44,0.73);
-  }
-
-  .cta-section {
-    display: none;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .cta {
-    font-size: 10px;
-    padding-left: 2px;
-    font-weight: 300;
-    text-shadow: 2px 2px 3px rgba(0,15,44,1);
-    padding-bottom: 0.4%;
-  }
-}
+// @media only screen and (max-width: 768px) {
+//   .logo-container {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin-top: 50%;
+//   }
+//   .logo-container-2 {
+//     display: none;
+//   }
+//   .cclogo {
+//     color: white;
+//     font-family: "georgia";
+//     font-size: 100px;
+//     font-weight: 800;
+//     text-shadow: 10px 10px 10px rgba(0,15,44,0.6);
+//   }
+//   .tagline-container {
+//     display: none;
+//     flex-direction: row;
+//     justify-content: center;
+//   }
+//   .tagline {
+//     padding-left: 6px;
+//     font-weight: 300;
+//     letter-spacing: 3px;
+//     font-size: 15px;
+//     text-align: center;
+//     text-shadow: 3px 3px 5px rgba(0,15,44,0.73);
+//   }
+//
+//   .cta-section {
+//     display: none;
+//     flex-direction: row;
+//     justify-content: center;
+//   }
+//
+//   .cta {
+//     font-size: 10px;
+//     padding-left: 2px;
+//     font-weight: 300;
+//     text-shadow: 2px 2px 3px rgba(0,15,44,1);
+//     padding-bottom: 0.4%;
+//   }
+// }
 
 .particles-landing {
   position: absolute;
