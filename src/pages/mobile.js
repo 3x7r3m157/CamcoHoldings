@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.scss';
 import MobileNav from '../components/mobilenav.js';
-import BackgroundImageX from '../../static/Untitled-1.jpg';
+import BackgroundImage from '../../static/Untitled-1.jpg';
 import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -15,8 +15,7 @@ const Mobile = ({ isVisible }) => {
 
     <MobileNav/>
     <Particles />
-    <motion.img className="background-image-x" key={BackgroundImageX} src={BackgroundImageX} animate={{ x:4000 }} transition={{ type: "tween", duration: 170 }}/>
-
+    <motion.img className="background-image" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
 
     </div>
 

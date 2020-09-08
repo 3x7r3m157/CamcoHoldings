@@ -52,7 +52,7 @@ const Team = () => {
           <h3>Atlas Atendido</h3>
           <h5>Design Technologist</h5>
 
-          <p>I’m a renegade generalist hacker. Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, I have years of top-notch Ontological / Phenomenological leadership training instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea. I have initiated and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years. I am a musician of 18 years and in my free-time I operate a small spray painting business called the 'Dreamstate Monkeys' with my wife in my free time.</p>
+          <p>I’m a renegade generalist hacker. Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, I have years of top-notch Ontological / Phenomenological leadership training instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea. I've started and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years. I am a musician of 18 years and in my free-time I operate a small spray painting business called the 'Dreamstate Monkeys' with my wife in my free time.</p>
         </motion.div>
 
         <motion.div className="team-member">
@@ -78,9 +78,9 @@ const Team = () => {
           <p>Hi my name is Abiel Valencia and I’m a Digital Content Creator. I graduated from Grand Canyon university in 2019 and have worked as a freelance photographer and videographer since 2016. I moved to New York in 2019 to work as a freelance PA. I got to meet tons of creative people and experience different environments working with multiple media companies. I recently moved back to Arizona to be closer to my family. I am engaged and plan to get married in 2021. Creating films and photography is more than work for me, when I create a project I want to make sure that whenever someone sees my work, I want them to feel that certain emotion, what emotion you ask? Well, that’s for you to know.</p>
         </motion.div>
 
-        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} animate={{ x:2000 }} transition={{ ease: 0, duration: 140 }}/>
+        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
-      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} animate={{ x:4000 }} transition={{ ease: 0, duration: 100 }}/>
+      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
     </div>
   )
 }
