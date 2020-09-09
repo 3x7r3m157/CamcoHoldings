@@ -27,6 +27,12 @@ html body {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .mobile-landing-nav {
+    display: none;
+  }
+}
+
 .mobile-container {
   display: flex;
   flex-direction: column;
@@ -160,6 +166,7 @@ button.navbar-toggler {
   flex-direction: row;
   justify-content: center;
   margin-top: 14%;
+  margin-left: 2.5%;
 }
 .cclogo {
   color: white;

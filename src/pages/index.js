@@ -94,6 +94,14 @@ const Home = ({ isVisible }) => {
           </motion.div>
         </motion.div>
 
+        <motion.div className="logo-container" initial={{opacity: 0, y:-780}} animate={{opacity: 1, y:-780}} transition={{duration: 2, delay: 16}}>
+          <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 0.5}}>C</motion.h1>
+          <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 1}}>a</motion.h1>
+          <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 1.5}}>m</motion.h1>
+          <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 2}}>C</motion.h1>
+          <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 2.5}}>o</motion.h1>
+        </motion.div>
+
         <motion.div className="mobile-landing-nav">
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
             <motion.div>
