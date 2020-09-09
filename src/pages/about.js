@@ -20,7 +20,7 @@ const About = () => {
 
       <div className="white-bg">
         <div className="heading-cta">
-          <h1>We are the future of entrepreneurship </h1>
+          <h1>We are the future of entrepreneurship and business development.</h1>
           <h1></h1>
         </div>
 
