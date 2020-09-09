@@ -14,7 +14,7 @@ const Home = ({ isVisible }) => {
 
     <div className="container">
 
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 5, delay: 17}}>
+    <motion.div className="intro-nav" initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 5, delay: 17}}>
         <Navbar/>
     </motion.div>
         <Particles />
@@ -93,13 +93,6 @@ const Home = ({ isVisible }) => {
             </motion.div>
           </motion.div>
         </motion.div>
-        <motion.div className="logo-container" initial={{opacity: 0, y:-800}} animate={{opacity: 1}} transition={{duration: 3, delay: 15.5}}>
-          <motion.h1 className="cclogo">C</motion.h1>
-          <motion.h1 className="cclogo">a</motion.h1>
-          <motion.h1 className="cclogo">m</motion.h1>
-          <motion.h1 className="cclogo">C</motion.h1>
-          <motion.h1 className="cclogo">o</motion.h1>
-        </motion.div>
 
         <motion.div className="mobile-landing-nav">
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
@@ -108,37 +101,37 @@ const Home = ({ isVisible }) => {
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 2}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/about/">ABOUT</Link>
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 2}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 3}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/companies/">COMPANIES</Link>
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 3}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 4}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/philanthropy/">PHILANTHROPY</Link>
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 4}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 5}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/riseabove/">RISE ABOVE</Link>
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 5}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/team/">OUR TEAM</Link>
             </motion.div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 7}}>
             <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
             </motion.div>
