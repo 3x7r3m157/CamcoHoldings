@@ -15,7 +15,7 @@ const Home = ({ isVisible }) => {
     <div className="container">
 
     <motion.div className="intro-nav" initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 5, delay: 17}}>
-        <Navbar/>
+        <Navbar className="intro-nav" />
     </motion.div>
         <Particles />
         <motion.div className="logo-container" initial={{opacity: 1}} animate={{opacity: 0}} transition={{duration: 1, delay: 5}}>
