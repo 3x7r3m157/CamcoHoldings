@@ -68,9 +68,9 @@ const Team = () => {
           <p>Hi my name is Abiel Valencia and I’m a Digital Content Creator. I graduated from Grand Canyon university in 2019 and have worked as a freelance photographer and videographer since 2016. I moved to New York in 2019 to work as a freelance PA. I got to meet tons of creative people and experience different environments working with multiple media companies. I recently moved back to Arizona to be closer to my family. I am engaged and plan to get married in 2021. Creating films and photography is more than work for me, when I create a project I want to make sure that whenever someone sees my work, I want them to feel that certain emotion, what emotion you ask? Well, that’s for you to know.</p>
         </motion.div>
 
-        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
+        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
-      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
+      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
     </div>
   )
 }
