@@ -47,9 +47,9 @@ const About = () => {
         <div className="camco-model-container">
           <motion.img className="camco-model" key={CamcoModel} src={CamcoModel}/>
         </div>
-        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.5 }}/>
+        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
-      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.5 }}/>
+      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
     </div>
   )
 }

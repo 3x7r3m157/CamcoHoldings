@@ -7,8 +7,7 @@ const Navbar = () => {
       <div className="navbar">
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
             <motion.div>
-              <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1>
-</Link>
+              <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1></Link>
             </motion.div>
           </motion.div>
 
