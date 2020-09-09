@@ -12,10 +12,9 @@ const Mobile = ({ isVisible }) => {
   return (
 
     <div className="intro-container">
-
     <MobileNav/>
     <Particles />
-    <motion.img className="background-image" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
+    <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
 
     </div>
 

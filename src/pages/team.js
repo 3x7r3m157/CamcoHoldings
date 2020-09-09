@@ -38,21 +38,11 @@ const Team = () => {
         </motion.div>
 
         <motion.div className="team-member">
-          <motion.img className="member-pic" key={Al} src={Al}/>
-            <h3>Alexander Schaap</h3>
-            <h5>Chief Financial Officer</h5>
-            <p>Alexander Schaap is a practiced financial executive with over 45 years of experience in guiding companies to achieve significant enhancements in overall profitability and financial efficiency.</p>
-            <p>He has taught economic, financial management, and value-added concepts at university levels and to corporate employees. He is familiar with FASB and GAAP procedures. Demonstrated expertise in Strategic Planning, Mergers and Acquisitions, Financial Training and Change Management.</p>
-            <p>Al has over his career standardized and improved accounting procedures, revising the chart of accounts, automating accounting rules for consigned inventory, and making changes to work-in-process and inventory valuation processes. He has created a tax-advantaged strategies in coordination with an estate plan for the sole owner of a Subchapter S business.</p>
-            <p>Al achieved his Bachelor's degree from Wayne State University and his MBA from Central Michigan University. Besides his experience at teaching, Al has authored numerous articles on financial technology. He has spoken at conferences on topics such as Management techniques, Auditor relationships, Credit Management and Technology.</p>
-          </motion.div>
-
-        <motion.div className="team-member">
           <motion.img className="member-pic" key={Atlas} src={Atlas}/>
           <h3>Atlas Atendido</h3>
           <h5>Design Technologist</h5>
 
-          <p>I’m a renegade generalist hacker. Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, I have years of top-notch Ontological / Phenomenological leadership training instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea. I've started and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years. I am a musician of 18 years and in my free-time I operate a small spray painting business called the 'Dreamstate Monkeys' with my wife in my free time.</p>
+          <p>I’m a generalist hacker, Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, I have years of top-notch Ontological / Phenomenological leadership training instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea. I've started and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years. I am a musician of 18 years and in my free-time I operate a small spray painting business called the 'Dreamstate Monkeys' with my wife in my free time.</p>
         </motion.div>
 
         <motion.div className="team-member">
@@ -86,3 +76,13 @@ const Team = () => {
 }
 
 export default Team
+
+// <motion.div className="team-member">
+//   <motion.img className="member-pic" key={Al} src={Al}/>
+//     <h3>Alexander Schaap</h3>
+//     <h5>Chief Financial Officer</h5>
+//     <p>Alexander Schaap is a practiced financial executive with over 45 years of experience in guiding companies to achieve significant enhancements in overall profitability and financial efficiency.</p>
+//     <p>He has taught economic, financial management, and value-added concepts at university levels and to corporate employees. He is familiar with FASB and GAAP procedures. Demonstrated expertise in Strategic Planning, Mergers and Acquisitions, Financial Training and Change Management.</p>
+//     <p>Al has over his career standardized and improved accounting procedures, revising the chart of accounts, automating accounting rules for consigned inventory, and making changes to work-in-process and inventory valuation processes. He has created a tax-advantaged strategies in coordination with an estate plan for the sole owner of a Subchapter S business.</p>
+//     <p>Al achieved his Bachelor's degree from Wayne State University and his MBA from Central Michigan University. Besides his experience at teaching, Al has authored numerous articles on financial technology. He has spoken at conferences on topics such as Management techniques, Auditor relationships, Credit Management and Technology.</p>
+//   </motion.div>
