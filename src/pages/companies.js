@@ -8,7 +8,7 @@ import CCAdvisors from '../../static/ccadvisors_black.svg';
 import CCVentures from '../../static/ccventures_black.svg';
 import CCCommercial from '../../static/cccommercial_black.svg';
 import CCChampion from '../../static/camcochampion.svg';
-import CCTech from '../../static/camcogalaxylogo.svg';
+import CCTech from '../../static/CamcoGalaxyLogo.svg';
 
 import './styles.scss';
 import { motion } from 'framer-motion';
