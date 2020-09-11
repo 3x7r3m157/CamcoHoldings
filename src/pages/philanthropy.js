@@ -6,6 +6,7 @@ import NavParticles from '../components/navparticles.js'
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import Footer from '../components/footer.js';
+import LinkingSports from '../../static/linkingsports.svg';
 
 
 const Philanthropy = () => {
@@ -14,8 +15,9 @@ const Philanthropy = () => {
       <Navbar />
       <NavParticles />
       <div className="white-bg">
-        <h1 className="heading-cta">Philanthropy</h1>
-        <h2>Linking Sports</h2>
+        <motion.div className="linkingsports-container">
+          <motion.img className="linkingsports" key={LinkingSports} src={LinkingSports}/>
+        </motion.div>
         <p>Our Philanthropy Division Established in 2004- Linking Sports and Communities is a 501(©)(3)
         non-profit that seeks to enhance the relationships in our communities by encouraging the youth
         to lead active, healthy lifestyles, and to continue the advancement of their education. Through

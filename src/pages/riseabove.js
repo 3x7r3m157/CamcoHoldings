@@ -2,10 +2,13 @@ import React from 'react';
 import CamcoNavbar from '../components/camconavbar.js';
 import Footer from '../components/footer.js';
 import NavParticles from '../components/navparticles.js';
+import Bubbles from '../components/bubbles.js'
 import './styles.scss';
 import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
+import RiseAboveLogo from '../../static/riseabove.svg'
+
 
 
 const RiseAbove = () => {
@@ -14,7 +17,10 @@ const RiseAbove = () => {
       <CamcoNavbar />
       <NavParticles />
       <div className="white-bg">
-        <h1 className="heading-cta">Rise Above Creative Solutions</h1>
+        <motion.div className="riseabove-logo-container">
+          <Bubbles />
+          <motion.img className="riseabove-logo" src={RiseAboveLogo} key={RiseAboveLogo}/>
+        </motion.div>
         <p>A full service marketing agency that specializes in helping clients
         maximize their business potential by allowing them to focus on their strengths
         and priorities while outsourcing their marketing.</p>

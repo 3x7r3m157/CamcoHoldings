@@ -660,22 +660,31 @@ p, h1, h2, h3, h4, li {
 }
 
 .ccc-logo {
-  width: 50%;
-  height: 30%;
-  opacity: 0.8;
+  width: 70%;
+  height: 50%;
 }
 
 .ccca-logo {
-  width: 50%;
-  height: 30%;
-  opacity: 0.8;
-
+  width: 70%;
+  height: 50%;
 }
 
 .ccv-logo {
-  width: 50%;
-  height: 30%;
-  opacity: 0.8;
+  width: 70%;
+  height: 50%;
+}
+
+.ccch-logo {
+  width: 60%;
+  height: 40%;
+  margin-left: 5%;
+}
+
+.cct-logo {
+  width: 80%;
+  height: 60%;
+  margin-bottom: 10%;
+  margin-left: -3%;
 }
 
 .cc-container {
@@ -683,11 +692,97 @@ p, h1, h2, h3, h4, li {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-left: 30%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-left: 23%;
 }
 
 .ccv {
   margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .riseabove-logo-container {
+    width: 360px;
+    height: 95px;
+    background-color: #021c43;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .riseabove-bubbles {
+    position: fixed;
+    width: 350px;
+    height: 125px;
+    z-index: 1;
+  }
+
+  .riseabove-logo {
+    margin-left: 1%;
+    width: 350px;
+    height: 140px;
+    margin-top: -6%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .riseabove-logo-container {
+    width: 500px;
+    height: 130px;
+    background-color: #021c43;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .riseabove-bubbles {
+    position: fixed;
+    width: 500px;
+    height: 130px;
+    z-index: 1;
+  }
+
+  .riseabove-logo {
+    margin-left: 1%;
+    width: 490px;
+    height: 140px;
+    margin-top: -1%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .riseabove-logo-container {
+    width: 1000px;
+    height: 260px;
+    background-color: #021c43;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .riseabove-bubbles {
+    position: fixed;
+    width: 1000px;
+    height: 260px;
+    z-index: 1;
+  }
+
+  .riseabove-logo {
+    margin-left: 1%;
+    width: 980px;
+    height: 280px;
+    margin-top: -1%;
+  }
+}
+
+
+.linkingsports {
+  width: 1200px;
+  height: 460px;
+}
+
+.linkingsports-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
