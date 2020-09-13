@@ -17,6 +17,7 @@ import Al from '../../static/al.jpg';
 import Cam from '../../static/cam.jpg';
 import Candace from '../../static/candace.jpg';
 import Dan from '../../static/dan.jpg';
+import Brad from '../../static/brad.jpg'
 
 
 
@@ -36,6 +37,18 @@ const Team = () => {
             <p>Now author of Never Stop " 12 Principles of Success book series. Cameron has been featured in numerous global media outlets from Forbes, ESPN, Sports Illustrated, USA Today, New York Post and more.</p>
             <p>With his passion in leadership, business, and philanthropy, Cameron started his involvement in Linking Sports and Communities, a 15 year nonprofit that supports underprivileged youth. His commitment to growing businesses and helping communities has set Cameron on a path to influence many around the world.</p>
         </motion.div>
+
+        <motion.div className="team-member">
+          <motion.img className="member-pic" key={Brad} src={Brad}/>
+          <h3>Brad Logan</h3>
+          <h5>Council - Real Estate Executive</h5>
+
+          <p>After 3 years of writing legal documents governing real estate transactions, I pursued a desire to become more proficient at the deal making side of real estate and joined CBRE as broker.  In 1999 Logan Enterprises, LLC was formed and served as the operating entity for what would become several inter-related commercial real estate companies in the disciplines of real estate brokerage, property management, mortgage brokerage, construction, commercial property insurance claim restoration, and electrical/commercial lighting services.  These companies operated under my direction and under the names of Cavan Commercial, Logan Commercial, Logan Asset Management, C2C, CornerStone, EnviroLight et al.  In 2006, these companies employed a staff just short of 50 team members and reached over $5.3 million in annual sales.</p>
+
+          <p>My unique ability and greatest service to these companies was generating new business through sourcing real estate opportunities and maintaining long term partner, investor, client, banking and vendor relationships. My passion is to utilize strategic thinking in order to match resources with opportunity and create win-win outcomes. I have been directly involved in the design, development, sales, management and construction of more than 5 million square feet of commercial real estate projects in the greater Phoenix area and acted as a consultant for several projects outside of Maricopa County, including as distant as Connecticut. Further, I created and authored the “Logan Office Condo Report” which is the only research of its kind available in Arizona tracking over 300 projects and more than 15 million square feet of owner/user office condo development.</p>
+
+        </motion.div>
+
 
         <motion.div className="team-member">
           <motion.img className="member-pic" key={Atlas} src={Atlas}/>

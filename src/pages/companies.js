@@ -19,9 +19,14 @@ const Companies = () => {
       <Navbar />
       <NavParticles />
       <div className="white-bg">
+
+
+
       <motion.div className="cc-container">
         <motion.img className="ccc-logo" key={CCCommercial} src={CCCommercial} />
       </motion.div>
+
+
 
       <p>CamCo Commercial Inc uses an opportunistic private equity strategy with a focus on, Commercial real estate, themed developments, international brand development with Pro Athletes, Celebrities
       and other consumer-facing sectors.</p>
@@ -29,6 +34,8 @@ const Companies = () => {
       the world.</p>
       <p>The firm maintains a merchant’s focus on its investment portfolio by designing, developing, building, owning, and operating each of its
       investments. Rise Venture Fund is driven by first-hand knowledge of all operational aspects of its entities.</p>
+
+
 
       <motion.div  className="cc-container">
         <motion.img className="ccca-logo" key={CCAdvisors} src={CCAdvisors} />
@@ -38,11 +45,16 @@ const Companies = () => {
       <p>We go a step further with our buyers and we go on- site for them. We visit the asset of their choice and take inside and outside panoramic photos for their viewing. We can email the photos or have a face to face showing with the buyer.</p>
 
 
+
+
+
       <motion.div  className="cc-container">
         <motion.img className="ccv-logo" key={CCVentures} src={CCVentures} />
       </motion.div>
 
       <p className="ccv">The CamCo Ventures LLC machine provide some combination of education, capital, co-working space, product-development support and access to a strong support network. We enable companies that are ready for venture capital to quickly get up to steam.</p>
+
+
 
       <motion.div  className="cc-container">
         <motion.img className="ccch-logo" key={CCChampion} src={CCChampion} />
@@ -59,6 +71,8 @@ const Companies = () => {
       </ul>
 
       <p>CC requires that on a going in basis, with validated costs and revenues, that each project in not more than 18 months will provide a distribution to its members that is equal to equity invested by CC (assuming equity for this purpose is 25% of cost), with a going in yield (revenue over costs) of 200-250 basis points over a market based but conservative cap rate for sale of the finished project. This is a metric that has proven successful to over and over again.</p>
+
+
 
       <motion.div  className="cc-container">
         <motion.img className="cct-logo" key={CCTech} src={CCTech} />

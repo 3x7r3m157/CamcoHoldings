@@ -19,10 +19,16 @@ const About = () => {
       <NavParticles />
 
       <div className="white-bg">
+
+
+
         <div className="heading-cta">
           <h1>We are the future of entrepreneurship and business development.</h1>
           <h1></h1>
         </div>
+
+
+
 
         <p>CamCo Commercial Inc uses an opportunistic private equity strategy with a focus on, Commercial
         real estate, themed developments, international brand development with Pro Athletes, Celebrities
@@ -34,9 +40,15 @@ const About = () => {
         building, owning, and operating each of its investments. CamCo Ventures Fund is driven by first-hand
         knowledge of all operational aspects of its entities.</p> <p>Our portfolio breakdown is as follows:</p>
 
+
+
+
         <div className="breakdown-container">
           <motion.img className="breakdown" key={Breakdown} src={Breakdown}/>
         </div>
+
+
+
         <h2>Our Investment Process</h2>
         <ul>
           <li>Identification of potential investments begins with insight provided by CamCo’s network of business and consumer services, contacts as well as its operational experience. Economic sector and marketplace analyses are performed to determine attractive areas to invest.</li>
@@ -44,9 +56,15 @@ const About = () => {
           <li>Portfolio positions are determined on a relative basis according to individually set risk/return criteria. The major focus is on real estate, high volume consumer goods, securities and quick service restaurant sector.</li>
           <li>The risk management process begins with maintaining control over every aspect of a business. The operational staff maintains a thorough knowledge of the investments and seasoned management teams run each investment to minimize the volatility of returns</li>
         </ul>
+
+
+
         <div className="camco-model-container">
           <motion.img className="camco-model" key={CamcoModel} src={CamcoModel}/>
         </div>
+
+
+        
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
       <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
