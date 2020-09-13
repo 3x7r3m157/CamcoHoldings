@@ -704,7 +704,7 @@ p, h1, h2, h3, h4, li {
   .riseabove-logo-container {
     width: 360px;
     height: 95px;
-    background-color: #759fc7;
+    background-color: #759fc7 ;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -728,9 +728,9 @@ p, h1, h2, h3, h4, li {
     margin-top: -6.3%;
     margin-right: -7%;
     pointer-events: none;
-
-  }
+    }
 }
+
 
 @media only screen and (min-width: 600px) {
   .riseabove-logo-container {

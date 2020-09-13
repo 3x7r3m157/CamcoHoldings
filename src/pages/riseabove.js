@@ -21,7 +21,7 @@ const RiseAbove = () => {
       <div className="white-bg">
         <motion.div className="riseabove-logo-container">
           <Bubbles />
-          <motion.img className="riseabove-logo" src={RiseAboveLogo} key={RiseAboveLogo}/>
+          <motion.img className="riseabove-logo"  src={RiseAboveLogo} key={RiseAboveLogo} initial={{opacity: 0, scale: 0.9}} animate={{opacity: 1, scale: 1}} transition={{duration: 2}}/>
         </motion.div>
         <h3>We assist and guide our clients into achieving their most ambitious business development goals, and strategic objectives.</h3><br/>
         <p>With the highest levels of professionalism and experience, we provide strategic counsel, creative solutions, and prompt, responsive services. Rise Above helps you massively break through any barriers to bring your contribution to delighted new customers in many different lands, across many different seas. We will assist you to capitalize on that success in bringing branding and company image; to give repetitive sales and create a number of splashes in the Domestic and International Business market.</p>
