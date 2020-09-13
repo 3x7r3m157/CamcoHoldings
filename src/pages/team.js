@@ -1,6 +1,6 @@
 import React from 'react';
 import CamcoNavbar from '../components/camconavbar.js';
-import './styles.scss';
+import './team.scss';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import { Image, Container } from 'react-bootstrap';
@@ -55,14 +55,18 @@ const Team = () => {
           <h3>Atlas Atendido</h3>
           <h5>Design Technologist</h5>
 
-          <p>I’m a generalist hacker, Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, I have years of top-notch Ontological / Phenomenological leadership training instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea. I've started and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years. I am a musician of 18 years and in my free-time I operate a small spray painting business called the 'Dreamstate Monkeys' with my wife in my free time.</p>
+          <p>I’m a renegade generalist hacker. Jack of all trades - Master of some. A React Full-stack developer, graphic / web designer, and digital marketer. I’ve helped launch multiple startups, co-founded a non-profit, and I have started and organized multiple meetup groups including HackerNest Seattle and grew it to over 800 members in 2 years.</p>
+          <p>I’m a strong proponent of the positive model of integrity and its relation to high performing creative teams, lean startup methodology, and I have years of top-notch Ontological / Phenomenological leadership training (instructed by Werner Erhard, Steve Zafron, Michael C Jennings, and Jerri Echivarea).</p>
+          <p>My greatest passion and highest aim is the utilization of technology and crystal clear design thinking to give the greatest amount of people the tools they need to make positive changes in the leadership of their own lives. I’m a musician of 18 years, martial artist of 6, and in my free-time I operate a small spray painting business called the Dreamstate Monkeys with my wife.</p>
         </motion.div>
 
         <motion.div className="team-member">
           <motion.img className="member-pic" key={Dan} src={Dan}/>
           <h3>Daniel Morales</h3>
           <h5>Designer</h5>
-          <p>Daniel Morales is a Graphic Designer and brand specialist from Phoenix Arizona. His initial background in music gave him the refined skills needed to take on projects on both a commercially and creatively. Daniel is now the current brand manager & graphic designer for NEVERSTOP.</p>
+          <p>Daniel Morales is a Graphic Designer and Brand Specialist from Phoenix Arizona. In 2017 he left his formal education of design to pursue freelance work, landing a series of high end design projects. Shortly after, he began a visual blog accompanied by a website to showcase his eclectic design work, an art style referred to as ‘ACID GRAPHICS’.</p>
+          <p>Often times his artistic renders depict grungy or eerie spin offs of pop culture icons or technology from his childhood. His initial background in ‘ACID GRAPHICS’ and music production / artist branding gave him the refined skills needed to take on projects that are both creative and commercial.</p>
+          <p>Through an incredible journey in multiple creative disciplines, Daniel has become the current in-house designer for CamCo and his influence on the global lifestyle brand that he manages, NEVERSTOP, speaks to his unique experience and perspective in fashion design, music production, and technology.</p>
         </motion.div>
 
         <motion.div className="team-member">

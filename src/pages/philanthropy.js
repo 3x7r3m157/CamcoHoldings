@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../components/camconavbar.js'
-import './styles.scss';
+import './philanthropy.scss';
 import { motion } from 'framer-motion';
 import NavParticles from '../components/navparticles.js'
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import Footer from '../components/footer.js';
 import LinkingSports from '../../static/linkingsports.svg';
+import LinkingSportsMobile from '../../static/linkingsports.mobile.png';
 import GoodwillPic1 from '../../static/goodwill1.jpg'
 import GoodwillPic2 from '../../static/goodwill2.jpg'
 
@@ -17,10 +18,10 @@ const Philanthropy = () => {
       <NavParticles />
       <div className="white-bg">
 
-
-
         <motion.div className="linkingsports-container">
           <motion.img className="linkingsports" key={LinkingSports} src={LinkingSports}/>
+          <motion.img className="linkingsports-mobile" key={LinkingSportsMobile} src={LinkingSportsMobile}/>
+
         </motion.div>
 
 
@@ -43,6 +44,15 @@ const Philanthropy = () => {
           <li>Water Conservation</li>
           <li>Waste Management</li>
           <li>Indoor Air Quality</li>
+        </ul>
+        <h5>Principles for CamCo's Sustainable Global Business:</h5>
+
+        <ul>
+          <li>Enhance liveability</li>
+          <li>Create opportunities for economic prosperity</li>
+          <li>Foster environmental responsibility</li>
+          <li>Embrace design excellence</li>
+          <li>Demonstrate visionary leadership and strong governance</li>
         </ul>
 
         <motion.img className="goodwill-pics" src={GoodwillPic2} key={GoodwillPic2} />

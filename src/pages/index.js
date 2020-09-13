@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.scss';
+import './index.scss';
 import Navbar from '../components/camconavbar.js';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import Particles from '../components/particles.js';

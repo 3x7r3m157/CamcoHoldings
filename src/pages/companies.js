@@ -10,7 +10,7 @@ import CCCommercial from '../../static/cccommercial_black.svg';
 import CCChampion from '../../static/camcochampion.svg';
 import CCTech from '../../static/CamcoGalaxyLogo.svg';
 
-import './styles.scss';
+import './companies.scss';
 import { motion } from 'framer-motion';
 
 const Companies = () => {

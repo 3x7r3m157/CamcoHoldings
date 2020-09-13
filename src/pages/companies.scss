@@ -1,0 +1,274 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image-x {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  height: 110%;
+  position: fixed;
+  bottom: -10%;
+  right: 0;
+  z-index: -4;
+}
+
+@media only screen and (max-width: 768px) {
+  .background-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: fixed;
+    top: 13%;
+    bottom: -10%;
+    right: 0;
+    z-index: -4;
+    pointer-events: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .background-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: fixed;
+    top: 6%;
+    bottom: -10%;
+    right: 0;
+    z-index: -4;
+    pointer-events: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .white-bg {
+    position: fixed;
+    left: 0;
+    top: 13%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: -3;
+  }
+
+  .white-bg p {
+    color: #002355;
+    font-size: 14px;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h1 {
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #002355;
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h2 {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h3 {
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h4 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h5 {
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg li {
+    color: #002355;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 1%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .white-bg {
+    position: fixed;
+    left: 0;
+    top: 6%;
+    bottom: -6%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: -3;
+  }
+  .white-bg p {
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h1 {
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #002355;
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h2 {
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h3 {
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h4 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg h5 {
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+  }
+
+  .white-bg li {
+    color: #002355;
+    margin-left: 16%;
+    margin-right: 14%;
+    margin-bottom: 1%;
+  }
+
+}
+
+.camco-model-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.breakdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .camco-model {
+    max-height: 1000px;
+    max-width: 1000px;
+    margin-bottom: 8%;
+  }
+
+  .breakdown {
+    max-height: 800px;
+    max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .camco-model {
+    max-height: 400px;
+    max-width: 400px;
+    margin-bottom: 30%;
+  }
+
+  .breakdown {
+    max-height: 300px;
+    max-width: 500px;
+  }
+}
+
+.ccc-logo {
+  width: 70%;
+  height: 50%;
+}
+
+.ccca-logo {
+  width: 70%;
+  height: 50%;
+}
+
+.ccv-logo {
+  width: 70%;
+  height: 50%;
+}
+
+.ccch-logo {
+  width: 60%;
+  height: 40%;
+  margin-left: 5%;
+}
+
+.cct-logo {
+  width: 80%;
+  height: 60%;
+  margin-bottom: 10%;
+  margin-left: -3%;
+}
+
+.cc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 23%;
+}
+
+.ccv {
+  margin-bottom: 10%;
+}

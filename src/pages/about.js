@@ -1,6 +1,6 @@
 import React from 'react';
 import CamcoNavbar from '../components/camconavbar.js';
-import './styles.scss';
+import './about.scss';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import { Image, Container } from 'react-bootstrap';
@@ -38,7 +38,7 @@ const About = () => {
 
         <p>The firm maintains a merchant’s focus on its investment portfolio by designing, developing,
         building, owning, and operating each of its investments. CamCo Ventures Fund is driven by first-hand
-        knowledge of all operational aspects of its entities.</p> <p>Our portfolio breakdown is as follows:</p>
+        knowledge of all operational aspects of its entities.</p> <h5>Our portfolio breakdown is as follows:</h5>
 
 
 
@@ -64,7 +64,7 @@ const About = () => {
         </div>
 
 
-        
+
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
       <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
