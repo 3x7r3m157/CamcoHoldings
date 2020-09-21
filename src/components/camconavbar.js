@@ -41,6 +41,12 @@ const Navbar = () => {
             </motion.div>
           </motion.div>
 
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 5}}>
+            <motion.div whileHover={{ scale: 1.2}} whileTap={{ scale: 0.9 }}>
+              <Link className="nav-item" to="/press/">PRESS</Link>
+            </motion.div>
+          </motion.div>
+
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
             <motion.div whileHover={{ scale: 1.2}} whileTap={{ scale: 0.9 }}>
               <Link className="nav-item" to="/contact/">CONTACT</Link>

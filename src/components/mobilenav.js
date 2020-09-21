@@ -49,6 +49,12 @@ const MobileNav = () => {
 
           <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
             <motion.div className="mobile-nav-spacing">
+              <Link className="mobile-nav-item" to="/press/">PRESS</Link>
+            </motion.div>
+          </motion.div>
+
+          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 7}}>
+            <motion.div className="mobile-nav-spacing">
               <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
             </motion.div>
           </motion.div>
