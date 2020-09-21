@@ -130,14 +130,14 @@ html body {
   }
 }
 
+
+
 @media only screen and (min-width: 768px) {
   .white-bg {
     position: fixed;
     left: 0;
     top: 6%;
     bottom: -6%;
-    width: 100%;
-    height: 100%;
     overflow: auto;
     z-index: -3;
   }
@@ -186,6 +186,7 @@ html body {
     color: #002355;
     margin-left: 16%;
     margin-right: 14%;
+    margin-bottom: 2%;
   }
 
   .white-bg li {
@@ -194,7 +195,6 @@ html body {
     margin-right: 14%;
     margin-bottom: 1%;
   }
-
 }
 
 
@@ -231,6 +231,14 @@ html body {
   }
 }
 
+.philanthropy-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16%;
+}
+
 .linkingsports-container {
   display: flex;
   flex-direction: row;
@@ -239,13 +247,12 @@ html body {
 }
 
 .goodwill-pics-container {
-  display: flex;
-  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  margin-left: 10%;
 }
 
 .goodwill-pics {
-  width: 68%;
+  width: 40%;
   height: auto;
-  margin-left: 16%;
-  margin-top: 2%;
 }

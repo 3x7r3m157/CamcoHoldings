@@ -615,24 +615,24 @@ p, h1, h2, h3, h4, li {
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: 8%;
-
+  margin-left: 8%;
   // margin-right: 7.25%;
 
 }
 
 .member-pic {
-  height: 300px;
-  width: 200px;
-  margin-top: 8%;
-  margin-bottom: 3%;
-  margin-left: 16%;
+  width: 400px;
+  height: 600px;
+  margin-top: 7%;
+  margin-bottom: 1%;
 }
 
 .team-member {
-  width: 35%;
+  width: 45%;
   min-height: 70%;
   margin-bottom: 5%;
-  margin-left: 10.5%;
+  margin-left: 1%;
+  margin-right: -4%;
 }
 
 @media only screen and (max-width: 768px) {

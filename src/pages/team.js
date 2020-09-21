@@ -82,7 +82,9 @@ const Team = () => {
           <h3>Abiel Valencia</h3>
           <h5>Digital Content Creator</h5>
 
-          <p>Hi my name is Abiel Valencia and I’m a Digital Content Creator. I graduated from Grand Canyon university in 2019 and have worked as a freelance photographer and videographer since 2016. I moved to New York in 2019 to work as a freelance PA. I got to meet tons of creative people and experience different environments working with multiple media companies. I recently moved back to Arizona to be closer to my family. I am engaged and plan to get married in 2021. Creating films and photography is more than work for me, when I create a project I want to make sure that whenever someone sees my work, I want them to feel that certain emotion, what emotion you ask? Well, that’s for you to know.</p>
+          <p>Hey! My name is Abiel Valencia and I’m a Digital Content Creator. I graduated from Grand Canyon University in 2019 and have worked as a freelance photographer and videographer since 2016. I have experience in numerous project types, specifically in documentary, short film, and music video.</p>
+          <p>I moved to New York in 2019 to work as a Freelance PA. I got to meet tons of creative people and experience different environments working with multiple media companies. Relationships are super important in my industry and I believe creating and maintaining relationships with people you have worked with are essential for success.</p>
+          <p>I recently moved back to Arizona to be closer to my family and friends. I am engaged, my fiancé and I plan to get married in 2021 and start our own Creative Agency in the near future. Creating films and photography is more than work for me, when I create a project I want to make sure that whenever someone sees my work, I want them to feel that specific emotion, what emotion you ask? Well, that’s for you to know.</p>
         </motion.div>
 
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>

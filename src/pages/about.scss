@@ -82,7 +82,7 @@ html body {
   .white-bg h1 {
     font-size: 23px;
     font-weight: 300;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #002355;
     text-align: center;
     margin-left: 16%;
@@ -124,6 +124,8 @@ html body {
 
   .white-bg li {
     color: #002355;
+    font-size: 14px;
+
     margin-left: 14%;
     margin-right: 14%;
     margin-bottom: 1%;
@@ -210,19 +212,22 @@ html body {
 .camco-model-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-left: 16%;
+  margin-right: 16%;
 }
 
 .breakdown-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-left: 16%;
+  margin-right: 16%;
 }
 @media only screen and (min-width: 768px) {
   .camco-model {
     max-height: 1000px;
     max-width: 1000px;
     margin-bottom: 8%;
+
   }
 
   .breakdown {
