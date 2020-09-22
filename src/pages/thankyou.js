@@ -13,31 +13,14 @@ const Contact = () => {
       <Navbar />
       <NavParticles />
       <div className="white-bg">
+
+
+
         <div className="mail-to-container">
-          <h5>For all feedback and inquiries, please reach out using the form provided below.</h5>
-          <div className="contact-form">
-            <form name="Contact Form" method="POST" data-netlify="true" action="/thankyou">
-              <input type="hidden" name="form-name" value="Contact Form" />
-              <div>
-                <label>First and Last Name: </label>
-                <input type="text" name="fname" />
-              </div>
-              <div>
-                <label>Phone number: </label>
-                <input type="tel" name="phone" />
-              </div>
-              <div>
-                <label>Your Email:</label>
-                <input type="email" name="email" />
-              </div>
-              <div>
-                <label>Message:</label>
-                <textarea name="message" />
-              </div>
-              <button type="submit">Send</button>
-            </form>
-          </div>
+          <h4 className="mail-to">Thank you! Your message has been submitted. Please allow up to two weeks for a response. If the inquiry is of utmost importance and we haven't responded yet, Please try to reach out again. It's likely your message was marked as spam or we overlooked your communication.</h4>
         </div>
+
+
 
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>

@@ -11,7 +11,7 @@ import CCChampion from '../../static/camcochampion.svg';
 import CCTech from '../../static/CamcoGalaxyLogo.svg';
 import CCRestaurants from '../../static/ccrestaurants.svg';
 import CCCoalition from '../../static/cccoalition.svg';
-import CCHotels from '../../static/cchotels_black.svg';
+import CCHotels from '../../static/cchospitality.svg';
 import NeverStop from '../../static/NS.png'
 import './companies.scss';
 import { motion } from 'framer-motion';
