@@ -10,7 +10,6 @@ import { Link } from 'gatsby';
 import Footer from '../components/footer.js';
 import CamcoModel from '../../static/CamcoModel.png';
 import Breakdown from '../../static/breakdown.png';
-import "normalize.css"
 
 import Abiel from '../../static/abiel.jpg';
 import Atlas from '../../static/atlas.jpg';

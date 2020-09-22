@@ -13,7 +13,6 @@ import CCRestaurants from '../../static/ccrestaurants.svg';
 import CCCoalition from '../../static/cccoalition.svg';
 import CCHotels from '../../static/cchotels_black.svg';
 import NeverStop from '../../static/NS.png'
-import "normalize.css"
 import './companies.scss';
 import { motion } from 'framer-motion';
 import Modal from 'react-modal';

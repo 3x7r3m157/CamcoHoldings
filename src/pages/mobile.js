@@ -6,7 +6,6 @@ import BackgroundImage from '../../static/Untitled-1.jpg';
 import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
-import "normalize.css"
 
 const Mobile = ({ isVisible }) => {
   return (

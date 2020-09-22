@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
 import Navbar from '../components/camconavbar.js';
 import BackgroundImage from '../../static/Untitled-1.jpg';
@@ -7,7 +6,6 @@ import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'gatsby';
-import "normalize.css"
 
 const Home = ({ isVisible }) => {
   return (

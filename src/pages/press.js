@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import { Link } from 'gatsby';
-import "normalize.css"
 
 const Press = () => {
   return (
