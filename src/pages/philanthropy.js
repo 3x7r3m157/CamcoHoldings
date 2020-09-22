@@ -10,6 +10,7 @@ import LinkingSports from '../../static/linkingsports.svg';
 import LinkingSportsMobile from '../../static/linkingsports.mobile.png';
 import GoodwillPic1 from '../../static/goodwill1.jpg'
 import GoodwillPic2 from '../../static/goodwill2.jpg'
+import "normalize.css"
 
 const Philanthropy = () => {
   return (

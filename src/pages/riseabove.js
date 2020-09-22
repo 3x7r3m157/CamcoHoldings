@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import RiseAboveLogo from '../../static/riseabove.svg';
-
+import "normalize.css"
 
 
 const RiseAbove = () => {

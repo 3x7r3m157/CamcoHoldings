@@ -6,6 +6,7 @@ import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import './contact.scss';
 import { motion } from 'framer-motion';
+import "normalize.css"
 
 const Contact = () => {
   return (

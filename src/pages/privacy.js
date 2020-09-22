@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/camconavbar.js';
 import Footer from '../components/footer.js';
 import './styles.scss';
+import "normalize.css"
 
 const Privacy = () => {
   return (
