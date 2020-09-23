@@ -11,6 +11,10 @@ import Footer from '../components/footer.js';
 import CamcoModel from '../../static/CamcoModel.png';
 import Breakdown from '../../static/breakdown.png';
 
+import Facebook from '../../static/facebook.svg';
+import Linkedin from '../../static/linkedin.svg';
+import Instagram from '../../static/instagram.svg';
+
 const About = () => {
   return (
     <div className="container">
@@ -63,6 +67,10 @@ const About = () => {
         </div>
 
 
+        <Footer />
+        <br/>
+        <br/>
+        <br/>
 
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>

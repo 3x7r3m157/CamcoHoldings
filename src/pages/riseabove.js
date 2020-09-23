@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import RiseAboveLogo from '../../static/riseabove.svg';
-
+import RACSlogo from '../../static/RACS.png'
 
 const RiseAbove = () => {
 
@@ -30,7 +30,11 @@ const RiseAbove = () => {
         </motion.div>
 
         <motion.div>
-        <h2 className="heading-center heading-cta"><strong>Rise Above Creative Solutions</strong></h2>
+
+        <motion.div className="racs-container">
+          <motion.img className="racs-pic" src={RACSlogo} key={RACSlogo}/>
+        </motion.div>
+
         <p>A full service marketing agency that specializes in helping clients
         maximize their business potential by allowing them to focus on their strengths
         and priorities while outsourcing their marketing.</p>
@@ -83,6 +87,10 @@ const RiseAbove = () => {
         <br/>
         </motion.div>
 
+        <Footer />
+        <br/>
+        <br/>
+        <br/>
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
       <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>

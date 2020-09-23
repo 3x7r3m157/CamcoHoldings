@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import { Link } from 'gatsby';
+import Footer from '../components/footer.js'
 
 const Press = () => {
   return (
@@ -33,15 +34,10 @@ const Press = () => {
           <Link className="press-link" to="https://ktar.com/story/2914386/multibillion-dollar-entertainment-sports-district-planned-near-scottsdale/"><strong>KTAR</strong> - Multibillion Dollar Entertainment, Sports District Planned Near Scottsdale</Link>
         </div>
 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
 
 
 
-
+        <Footer />
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
       <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>

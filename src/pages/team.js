@@ -19,6 +19,10 @@ import Candace from '../../static/candace.jpg';
 import Dan from '../../static/dan.jpg';
 import Brad from '../../static/brad.jpg'
 
+import Facebook from '../../static/facebook.svg';
+import Linkedin from '../../static/linkedin.svg';
+import Instagram from '../../static/instagram.svg';
+
 const Team = () => {
   return (
     <div className="container">
@@ -85,6 +89,25 @@ const Team = () => {
             <p>I moved to New York in 2019 to work as a Freelance PA. I got to meet tons of creative people and experience different environments working with multiple media companies. Relationships are super important in my industry and I believe creating and maintaining relationships with people you have worked with are essential for success.</p>
             <p>I recently moved back to Arizona to be closer to my family and friends. I am engaged, my fiancé and I plan to get married in 2021 and start our own Creative Agency in the near future. Creating films and photography is more than work for me, when I create a project I want to make sure that whenever someone sees my work, I want them to feel that specific emotion, what emotion you ask? Well, that’s for you to know.</p>
           </motion.div>
+          <br/>
+          <br/>
+          <div className="team-footer">
+            <div className="follow-us">
+              <div className="social-icon">
+                <Link to="https://www.facebook.com/CamCoCommercialinc"><motion.img src={Facebook} key={Facebook} /></Link>
+              </div>
+              <div className="social-icon">
+                <Link to="https://www.linkedin.com/company/camco-commercial-inc/"><motion.img src={Linkedin} key={Linkedin} /></Link>
+              </div>
+              <div className="social-icon">
+                <Link to="https://www.instagram.com/camcocommercial_inc/"><motion.img src={Instagram} key={Instagram} /></Link>
+              </div>
+            </div>
+            <div className="term-privacy">
+            <Link to="/terms/">Terms<span className="dot">    &#183;    </span></Link>
+            <Link to="/privacy/">Privacy</Link>
+            </div>
+          </div>
         </div>
         <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
       </div>
