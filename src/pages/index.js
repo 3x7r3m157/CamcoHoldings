@@ -143,8 +143,9 @@ const Home = ({ isVisible }) => {
             </motion.div>
           </motion.div>
         </motion.div>
-        <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1 }}/>
-
+        <motion.div className="background-container">
+          <motion.div className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1 }}></motion.div>
+        </motion.div>
     </div>
 
   )
@@ -153,7 +154,7 @@ const Home = ({ isVisible }) => {
 export default Home
 
 
-
+//
 
 // AAPL	7.069809 125.25	93.50	(0.30%)
 // MSFT	5.96303	228.50	-0.41	(-0.18%)
