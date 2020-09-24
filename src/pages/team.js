@@ -44,7 +44,7 @@ const Team = () => {
           <motion.div className="team-member">
             <motion.img className="member-pic" key={Brad} src={Brad}/>
             <h3>Brad Logan</h3>
-            <h5>Council - Real Estate Executive</h5>
+            <h5>Councel - Real Estate Executive</h5>
 
             <p>After 3 years of writing legal documents governing real estate transactions, I pursued a desire to become more proficient at the deal making side of real estate and joined CBRE as broker.  In 1999 Logan Enterprises, LLC was formed and served as the operating entity for what would become several inter-related commercial real estate companies in the disciplines of real estate brokerage, property management, mortgage brokerage, construction, commercial property insurance claim restoration, and electrical/commercial lighting services.  These companies operated under my direction and under the names of Cavan Commercial, Logan Commercial, Logan Asset Management, C2C, CornerStone, EnviroLight et al.  In 2006, these companies employed a staff just short of 50 team members and reached over $5.3 million in annual sales.</p>
 
@@ -109,9 +109,11 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}/>
-      </div>
-      <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
+        <motion.div className="background-container">
+          <motion.div className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}></motion.div>
+        </motion.div>
+        </div>
+      <motion.img className="nav-background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
     </div>
   )
 }

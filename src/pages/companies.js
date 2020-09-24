@@ -42,7 +42,7 @@ const Companies = () => {
       <Navbar />
       <NavParticles />
       <CompanyGrid />
-    <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
+    <motion.img className="nav-background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
     </div>
     <div className="company-footer">
       <div className="follow-us">
