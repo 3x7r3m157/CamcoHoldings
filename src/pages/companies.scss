@@ -228,6 +228,7 @@ html body {
     margin-left: 9%;
     margin-bottom: 3%;
     // margin-right: 7.25%;
+    z-index: 10;
   }
   .company {
     display: flex;
@@ -254,6 +255,7 @@ html body {
     margin-left: 9%;
     margin-top: 2%;
     padding-top: 10%;
+    pointer-events: all;
   }
   .company {
     display: flex;
