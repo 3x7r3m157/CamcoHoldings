@@ -167,7 +167,8 @@ const CompanyGrid = () => {
 
 
           <motion.div className="background-container">
-            <motion.div className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}></motion.div>
+            <motion.div className="background-image" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}></motion.div>
+            <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
           </motion.div>
 
           <Modal isOpen={commercialIsOpen} onRequestClose={closeCommercial} style={customStyles} contentLabel="CamCo Commercial">

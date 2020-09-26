@@ -97,6 +97,19 @@ button.navbar-toggler {
 }
 
 @media only screen and (max-width: 768px) {
+  // .mobile-landing-background-x {
+  //   background: url("../../static/Untitled-1.jpg");
+  //   object-fit: cover;
+  //   min-width: 100%;
+  //   min-height: 130%;
+  //   height: 110%;
+  //   position: fixed;
+  //   bottom: -10%;
+  //   right: 0;
+  //   z-index: -4;
+  // }
+
+
   .nav-background-image-x {
     background: url("../../static/Untitled-1.jpg");
     // height: 900px;
@@ -113,12 +126,15 @@ button.navbar-toggler {
     z-index: -4;
   }
 
+  .background-container div {
+    display: none;
+  }
+
   .background-image-x {
     background: url("../../static/Untitled-1.jpg");
     // height: 100%;
     // width: 300%;
     // animation: slide 120s linear infinite;
-
     object-fit: cover;
     min-width: 100%;
     min-height: 100%;
@@ -131,6 +147,10 @@ button.navbar-toggler {
 }
 
 @media only screen and (min-width: 768px) {
+  .mobilel-landing-background-x {
+    display: none;
+  }
+
   .nav-background-image-x {
     // background: url("../../static/Untitled-1.jpg") repeat-x;
     // height: 900px;
@@ -179,11 +199,25 @@ button.navbar-toggler {
 
 @media only screen and (max-width: 768px) {
 
+  .mobile-background-image {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 13%;
+    bottom: -10%;
+    right: 0;
+    z-index: -2;
+  }
+
+  .background-container div {
+    display: none;
+  }
+
   .background-image {
-    background: url("../../static/Untitled-2.jpg") repeat-x;
-    height: 100%;
-    width: 100%;
-    // animation: slide 120s linear infinite;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
     position: fixed;
     top: 13%;
     bottom: -10%;
@@ -192,6 +226,14 @@ button.navbar-toggler {
   }
 }
 @media only screen and (min-width: 768px) {
+  .background-container img {
+    display: none;
+  }
+
+  .mobile-background-image {
+    display: none;
+  }
+
   .background-image {
     background: url("../../static/Untitled-2.jpg") repeat-x;
     height: 900px;
