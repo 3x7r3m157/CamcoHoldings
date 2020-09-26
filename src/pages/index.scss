@@ -115,14 +115,14 @@ button.navbar-toggler {
 
   .background-image-x {
     background: url("../../static/Untitled-1.jpg") repeat-x;
-    // height: 100%;
-    // width: 600%;
-    // animation: slide 120s linear infinite;
+    height: 100%;
+    width: 300%;
+    animation: slide 120s linear infinite;
 
-    object-fit: cover;
-    min-width: 100%;
-    min-height: 100%;
-    height: 110%;
+    // object-fit: cover;
+    // min-width: 100%;
+    // min-height: 100%;
+    // height: 110%;
     position: fixed;
     bottom: -10%;
     right: 0;
