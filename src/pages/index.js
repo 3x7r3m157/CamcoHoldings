@@ -6,7 +6,7 @@ import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'gatsby';
-import MobileLanding from './mobile.js';
+import MobileNav from '../components/mobilenav.js';
 import { BrowserView, MobileView, isBrowser, isMobile } from "react-device-detect";
 
 const Home = ({ isVisible }) => {
@@ -14,7 +14,58 @@ const Home = ({ isVisible }) => {
   return (
     <>
       <MobileView>
-        <MobileLanding />
+        <MobileNav/>
+        <Particles />
+        <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.75 }}/>
+          <motion.div className="mobile-landing-nav">
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
+              <motion.div>
+                <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1></Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 2}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/about/">ABOUT</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 3}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/companies/">COMPANIES</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 4}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/philanthropy/">PHILANTHROPY</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 5}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/riseabove/">RISE ABOVE</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/team/">OUR TEAM</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/press/">PRESS</Link>
+              </motion.div>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 7}}>
+              <motion.div className="mobile-nav-spacing">
+                <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
+              </motion.div>
+            </motion.div>
+          </motion.div>
       </MobileView>
       <BrowserView>
       <div className="container">
@@ -104,56 +155,6 @@ const Home = ({ isVisible }) => {
               <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 1.5}}>m</motion.h1>
               <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 2}}>C</motion.h1>
               <motion.h1 className="cclogo" initial={{opacity: 0, y:100}} animate={{opacity: 1, y:0}} transition={{damping: 2, duration: 2.5}}>o</motion.h1>
-            </motion.div>
-
-            <motion.div className="mobile-landing-nav">
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
-                <motion.div>
-                  <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1></Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 2}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/about/">ABOUT</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 3}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/companies/">COMPANIES</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 4}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/philanthropy/">PHILANTHROPY</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 5}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/riseabove/">RISE ABOVE</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/team/">OUR TEAM</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 6}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/press/">PRESS</Link>
-                </motion.div>
-              </motion.div>
-
-              <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 7}}>
-                <motion.div className="mobile-nav-spacing">
-                  <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
-                </motion.div>
-              </motion.div>
             </motion.div>
 
             <motion.div className="background-container">
