@@ -11,12 +11,12 @@ import { BrowserView, MobileView, isBrowser, isMobile } from "react-device-detec
 
 const Home = ({ isVisible }) => {
 
-  return (
-    <>
-      <MobileView>
-        <MobileLanding />
-      </MobileView>
-      <BrowserView>
+  if (isMobile) {
+    return (
+      <MobileLanding />
+    )
+  } else {
+    return (
       <div className="container">
         <motion.div className="intro-nav" initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 5, delay: 17}}>
             <Navbar className="intro-nav" />
@@ -111,9 +111,8 @@ const Home = ({ isVisible }) => {
               <motion.img className="landing-background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.75 }}/>
             </motion.div>
         </div>
-      </BrowserView>
-    </>
-  )
+    )
+  }
 }
 
 export default Home
