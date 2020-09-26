@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.scss';
+import './index.scss';
 import MobileNav from '../components/mobilenav.js';
 import BackgroundImage from '../../static/Untitled-1.jpg';
 import Particles from '../components/particles.js';
