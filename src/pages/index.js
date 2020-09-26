@@ -152,7 +152,6 @@ const Home = ({ isVisible }) => {
 
         <motion.div className="background-container">
           <motion.img className="landing-background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.75 }}/>
-          <motion.div className="background-image-x" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1 }}></motion.div>
         </motion.div>
     </div>
 
@@ -160,3 +159,5 @@ const Home = ({ isVisible }) => {
 }
 
 export default Home
+
+// <motion.div className="background-image-x" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 1 }}></motion.div>
