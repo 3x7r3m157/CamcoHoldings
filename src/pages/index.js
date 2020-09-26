@@ -14,12 +14,13 @@ const Home = ({ isVisible }) => {
   return (
     <>
       <MobileView>
-        <div className="mobile-landing-nav">
-          <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
-            <motion.div>
-              <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1></Link>
+        <div className="container">
+          <div className="mobile-landing-nav">
+            <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
+              <motion.div>
+                <Link className="hamburger" to="/mobile/"><motion.h1 className="cclogo-mobile" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 2.5}}>CamCo</motion.h1></Link>
+              </motion.div>
             </motion.div>
-          </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration: 1}}>
               <motion.div className="mobile-nav-spacing">
                 <Link className="mobile-nav-item" to="/about/">ABOUT</Link>
@@ -61,8 +62,9 @@ const Home = ({ isVisible }) => {
                 <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
               </motion.div>
             </motion.div>
+          </div>
+          <Particles />
         </div>
-        <Particles />
         <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.75 }}/>
       </MobileView>
       <BrowserView>
