@@ -14,7 +14,6 @@ const Home = ({ isVisible }) => {
   return (
     <>
       <MobileView>
-        <MobileNav/>
         <Particles />
         <motion.img className="background-image-x" key={BackgroundImage} src={BackgroundImage} initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.75 }}/>
           <motion.div className="mobile-landing-nav">
