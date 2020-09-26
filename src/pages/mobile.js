@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './mobile.scss';
 import MobileNav from '../components/mobilenav.js';
 import BackgroundImage from '../../static/Untitled-1.jpg';

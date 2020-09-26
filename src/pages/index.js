@@ -14,7 +14,7 @@ const Home = ({ isVisible }) => {
   return (
     <>
       <MobileView>
-
+        <MobileLanding />
       </MobileView>
       <BrowserView>
       <div className="container">
