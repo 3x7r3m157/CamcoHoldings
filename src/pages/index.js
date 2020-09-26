@@ -6,8 +6,15 @@ import Particles from '../components/particles.js';
 import ParticleCamCo from '../../static/CamCo(solid).svg';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'gatsby';
+import MobileLanding from './mobile.js';
 
 const Home = ({ isVisible }) => {
+  if (window.screen.width <= 699) {
+    return (
+      <MobileLanding />
+    )
+  }
+
   return (
 
     <div className="container">
