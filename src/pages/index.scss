@@ -206,7 +206,9 @@ button.navbar-toggler {
 .background-container {
   overflow: hidden;
   z-index: -6;
+  pointer-events: none;
 }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -225,16 +227,7 @@ button.navbar-toggler {
     display: none;
   }
 
-  .background-image {
-    object-fit: cover;
-    min-width: 100%;
-    min-height: 100%;
-    position: fixed;
-    top: 13%;
-    bottom: -10%;
-    right: 0;
-    z-index: -2;
-  }
+
 }
 @media only screen and (min-width: 768px) {
   .background-container img {
@@ -243,6 +236,17 @@ button.navbar-toggler {
 
   .mobile-background-image {
     display: none;
+  }
+
+  .company-background-image {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 6%;
+    bottom: -10%;
+    right: 0;
+    z-index: -2;
   }
 
   .background-image {
