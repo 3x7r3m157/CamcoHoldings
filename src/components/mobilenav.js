@@ -58,7 +58,6 @@ const MobileNav = () => {
               <Link className="mobile-nav-item" to="/contact/">CONTACT</Link>
             </motion.div>
           </motion.div>
-
     </div>
 
   )

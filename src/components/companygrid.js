@@ -3,6 +3,7 @@ import Navbar from '../components/camconavbar.js';
 import NavParticles from '../components/navparticles.js';
 import Footer from '../components/footer.js';
 import BackgroundImage from '../../static/Untitled-1.jpg';
+import CompanyBackground from '../../static/Untitled-3.jpg';
 import BackgroundImage2 from '../../static/Untitled-2.jpg';
 import CCAdvisors from '../../static/ccadvisors_black.svg';
 import CCVentures from '../../static/ccventures_black.svg';
@@ -168,8 +169,6 @@ const CompanyGrid = () => {
               <motion.img className="ns-logo" key={NeverStop} src={NeverStop} whileHover={{scale: 1.1}}  whileTap={{scale: 0.9}} onClick={openNeverstop}/>
             </motion.div>
 
-
-
             <motion.img className="background-image" key={BackgroundImage2} src={BackgroundImage2} initial={{ opacity: 1}} animate={{opacity: 1}} transition={{ duration: 1.75 }}/>
 
             <Modal isOpen={commercialIsOpen} onRequestClose={closeCommercial} style={customStyles} contentLabel="CamCo Commercial">
@@ -328,8 +327,7 @@ const CompanyGrid = () => {
               <motion.img className="ns-logo" key={NeverStop} src={NeverStop} whileHover={{scale: 1.1}}  whileTap={{scale: 0.9}} onClick={openNeverstop}/>
             </motion.div>
 
-
-            <motion.div className="background-container">
+            <motion.div>
               <motion.div className="background-image" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}></motion.div>
             </motion.div>
 
