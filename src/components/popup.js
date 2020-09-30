@@ -9,7 +9,7 @@ const customStyles = {
   content : {
     top                   : '50%',
     left                  : '50%',
-    right                 : '10%',
+    right                 : 'auto',
     bottom                : 'auto',
     marginRight           : '-50%',
     transform             : 'translate(-50%, -50%)',
@@ -45,4 +45,4 @@ const Popup = () => {
   )
 }
 
-export default ReactDelayRender({delay: 1000})(Popup);
+export default ReactDelayRender({delay: 30000})(Popup);
