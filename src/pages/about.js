@@ -10,7 +10,7 @@ import { Link } from 'gatsby';
 import Footer from '../components/footer.js';
 import CamcoModel from '../../static/CamcoModel.png';
 import Breakdown from '../../static/breakdown.png';
-
+import Popup from '../components/popup.js';
 import Facebook from '../../static/facebook.svg';
 import Linkedin from '../../static/linkedin.svg';
 import Instagram from '../../static/instagram.svg';
@@ -20,7 +20,8 @@ const About = () => {
     <div className="container">
       <CamcoNavbar />
       <NavParticles />
-
+      <Popup />
+      
       <div className="white-bg">
 
 

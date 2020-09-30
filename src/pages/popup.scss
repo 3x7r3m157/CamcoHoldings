@@ -1,0 +1,24 @@
+.popup-pic {
+  height: 100%;
+  width: 100%;
+}
+
+.popup-pic-container {
+  height: 20%;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-text {
+  width: 80%;
+  height: 20%;
+}
+
+.popup-text p {
+  font-size: 18px;
+}
