@@ -45,4 +45,4 @@ const Popup = () => {
   )
 }
 
-export default ReactDelayRender({delay: 30000})(Popup);
+export default ReactDelayRender({delay: 20000})(Popup);
