@@ -14,21 +14,27 @@ import Popup from '../components/popup.js';
 import Facebook from '../../static/facebook.svg';
 import Linkedin from '../../static/linkedin.svg';
 import Instagram from '../../static/instagram.svg';
+import Cam from '../../static/ns-cam.jpeg'
 
 const About = () => {
   return (
     <div className="container">
       <CamcoNavbar />
       <NavParticles />
-      <Popup />
-      
+
       <div className="white-bg">
-
-
-
+        <div className="popup-container">
+          <div className="popup-pic-container">
+            <motion.img className="popup-pic" key={Cam} src={Cam} />
+          </div>
+          <div className="popup-text modal-text heading-cta">
+            <h4>Letter from the Chairman</h4>
+            <p>"Welcome to CamCo Commercial Inc, I am delighted that you decided to take a few moments to learn more about our organization. I believe you will find the work we do at CamCo Commercial Inc to be some of the most rewarding and challenging work in the world. The mission of CamCo Commercial Inc is to create a platform to empower the future leaders of our world by creating a network of businesses and business opportunities that will provide employment for thousands of people around the world.  Everything we do is helping make someone else’s life better, rather it be short or long term!"</p>
+            <p>"Today we may be developing a billion dollar project and tomorrow we may be assisting a group of underprivileged kids study for a math test. Whatever it may be, we are making an impact."  -Cameron Colvin</p>
+          </div>
+        </div>
         <div className="heading-cta">
           <h1>We are the future of entrepreneurship and business development.</h1>
-          <h1></h1>
         </div>
 
 
