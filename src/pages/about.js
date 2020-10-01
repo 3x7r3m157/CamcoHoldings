@@ -14,7 +14,7 @@ import Popup from '../components/popup.js';
 import Facebook from '../../static/facebook.svg';
 import Linkedin from '../../static/linkedin.svg';
 import Instagram from '../../static/instagram.svg';
-import Cam from '../../static/ns-cam.jpeg'
+import Cam from '../../static/cam.jpg'
 
 const About = () => {
   return (
