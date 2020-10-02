@@ -16,7 +16,7 @@ const Press = () => {
       <div className="white-bg">
         <h3 className="heading-center heading-cta">Press</h3>
         <div className="press-section">
-          <Link className="press-link" to="https://www.12news.com/video/life/heartwarming/former-nfl-player-gives-back-to-arizona-colvin-goodwill/75-92accc85-35f9-469c-9b94-177cbf786976/"><strong>12 NEWS</strong> - Former NFL player gives back to Arizona</Link> 
+          <Link className="press-link" to="https://www.12news.com/video/life/heartwarming/former-nfl-player-gives-back-to-arizona-colvin-goodwill/75-92accc85-35f9-469c-9b94-177cbf786976/"><strong>12 NEWS</strong> - Former NFL player gives back to Arizona</Link>
           <Link className="press-link" to="https://azbigmedia.com/business/cameron-colvin-pledges-200m-to-goodwill/"><strong>AZ BIG MEDIA</strong> - Cameron Colvin Pledges 200m to Goodwill</Link>
           <Link className="press-link" to="https://www.yourvalley.net/paradise-valley-independent/stories/camco-commercial-inc-pledges-200-million-to-goodwill-foundation,186511"><strong>YOUR VALLEY</strong> - CamCo Commercial Inc Pledges 200 Million to Goodwill Foundation</Link>
           <Link className="press-link" to="https://frontdoorsmedia.com/cameron-colvin-pledges-200-million-to-goodwill-of-central-and-northern-arizona-foundation/"><strong>FRONT DOORS MEDIA</strong> - Cameron Colvin Pledges 200 Million to Goodwill of Central and Northern Arizona Foundation</Link>
@@ -37,7 +37,6 @@ const Press = () => {
 
 
 
-https://www.12news.com/video/life/heartwarming/former-nfl-player-gives-back-to-arizona-colvin-goodwill/75-92accc85-35f9-469c-9b94-177cbf786976
         <Footer />
         <motion.div className="background-container">
           <motion.div className="background-image" initial={{ opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.25 }}></motion.div>
