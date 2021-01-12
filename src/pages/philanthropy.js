@@ -52,15 +52,6 @@ const Philanthropy = () => {
           <li>Embrace design excellence</li>
           <li>Demonstrate visionary leadership and strong governance</li>
         </ul>
-        <div className="goodwill-pics-container">
-          <motion.img className="goodwill-pics" src={GoodwillPic2} key={GoodwillPic2} />
-        </div>
-        <h2 className="heading-center heading-cta">CamCo Family Foundation has pledged $200 million to Goodwill of Central and Northern Arizona Foundation to help individuals achieve lifelong prosperity.</h2>
-        <p>Northern Arizona Foundation to help individuals achieve lifelong prosperity. September 9th 2020 he presented the first installment of $10 million to Goodwill and will continue donating $10 million a year, for the next 20 years. The funds will be used to create new adult education programs and future projects to help individuals living in poverty.</p>
-        <p>“Currently, more than 721,000 Arizonans do not have a high school diploma,” said Colvin. “The best way to help these individuals move out of poverty is by allowing them to achieve their educational needs and move on to a successful career path. Goodwill’s services are critical to anyone who is looking to achieve family sustaining employment. They are committed to helping these individuals build a better future and find a sustainable job – and for many that starts with a high school diploma. Generational wealth starts with creating more contributing members of society and by wealth we are referring to knowledge, health and self-actualization.”</p>
-        <div className="goodwill-pics-container">
-          <motion.img className="goodwill-pics" src={GoodwillPic1} key={GoodwillPic1} />
-        </div>
         <br/>
         <Footer />
         <br/>
@@ -77,3 +68,14 @@ const Philanthropy = () => {
 }
 
 export default Philanthropy
+
+
+// <div className="goodwill-pics-container">
+//   <motion.img className="goodwill-pics" src={GoodwillPic2} key={GoodwillPic2} />
+// </div>
+// <h2 className="heading-center heading-cta">CamCo Family Foundation has pledged $200 million to Goodwill of Central and Northern Arizona Foundation to help individuals achieve lifelong prosperity.</h2>
+// <p>Northern Arizona Foundation to help individuals achieve lifelong prosperity. September 9th 2020 he presented the first installment of $10 million to Goodwill and will continue donating $10 million a year, for the next 20 years. The funds will be used to create new adult education programs and future projects to help individuals living in poverty.</p>
+// <p>“Currently, more than 721,000 Arizonans do not have a high school diploma,” said Colvin. “The best way to help these individuals move out of poverty is by allowing them to achieve their educational needs and move on to a successful career path. Goodwill’s services are critical to anyone who is looking to achieve family sustaining employment. They are committed to helping these individuals build a better future and find a sustainable job – and for many that starts with a high school diploma. Generational wealth starts with creating more contributing members of society and by wealth we are referring to knowledge, health and self-actualization.”</p>
+// <div className="goodwill-pics-container">
+//   <motion.img className="goodwill-pics" src={GoodwillPic1} key={GoodwillPic1} />
+// </div>
